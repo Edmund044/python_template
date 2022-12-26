@@ -29,7 +29,7 @@ class Settings(BaseSettings):
         openapi_version='2.0.0',
         securityDefinitions=security_definitions
     )
-    APISPEC_SWAGGER_UI_URL = '/'
+    APISPEC_SWAGGER_UI_URL = '/doc'
 
     JWT_SECRET_KEY: str = "secret_key"
 
